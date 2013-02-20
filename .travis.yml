@@ -1,0 +1,17 @@
+# Travis-CI Build
+# see travis-ci.org for details
+
+language: c
+
+install:
+ # Make sure mono is installed,
+ # pipe stdout to dev/null because qq is still too chatty
+ - sudo apt-get update -qq > /dev/null
+ - sudo apt-get install -qq mono-devel > /dev/null
+
+script:
+ - ./mono-build.sh 
+
+branches:
+ only:
+  - master
