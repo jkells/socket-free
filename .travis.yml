@@ -15,3 +15,7 @@ script:
 branches:
  only:
   - master
+
+env:
+ global:
+  - secure: "jYGWDQjwQtM1UShxkJ/a+j3vn/AMzmxOdE0iQ+n/zed4U8F3B/Za0zbomKdC\nQUZN5WoVZ7aqR+SjXprDRVml11m7i4bQEetAyy5/A1GvE93YxWQNdMwI2sTe\n8uLpix1jYulipodJ3oMyQXlvJ8g4mOO29ZLtlNpMtYuIUKZhJJc="
