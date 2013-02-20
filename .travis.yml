@@ -11,6 +11,7 @@ install:
 
 script:
  - ./mono-build.sh 
+ - ./upload-bin.sh
 
 branches:
  only:
