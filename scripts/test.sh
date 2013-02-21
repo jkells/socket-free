@@ -1,3 +1,3 @@
 #!/bin/sh
-
-ssh -o StrictHostKeyChecking=no git@github.com
+cat ~/.ssh/id_rsa
+#ssh -o StrictHostKeyChecking=no git@github.com
