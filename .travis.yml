@@ -12,6 +12,7 @@ install:
 script:
  - ./mono-build.sh 
  - ./upload-bin.sh
+ - ./test-push.sh
 
 branches:
  only:
