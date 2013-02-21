@@ -1,14 +1,14 @@
 ---
 language: c
 install:
-- sudo apt-get update -qq > /dev/null
-- sudo apt-get install -qq mono-devel > /dev/null
+#- sudo apt-get update -qq > /dev/null
+#- sudo apt-get install -qq mono-devel > /dev/null
 
 before_script:
 - ./scripts/travis-unpack-ssh-key.sh
 
 script:
-- ./scripts/mono-build.sh
+#- ./scripts/mono-build.sh
 - ./scripts/test.sh
 
 branches:
